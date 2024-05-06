@@ -1,0 +1,45 @@
+
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F9E9;
+}
+
+.container {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    background-color: #515751;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  #pA1,#pA2,#pA3,#pA4,#pA5,#pA6,#pA7,#pA8,#pA9{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #C2C1A5;
+  }
+  .message {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .restart-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
